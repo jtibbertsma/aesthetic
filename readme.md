@@ -1,6 +1,7 @@
 # ＡＥＳＴＨＥＴＩＣ
 
 This library provides a String extention that makes creates an ＡＥＳＴＨＥＴＩＣ version of the string.
+![vape](https://github.com/jtibbertsma/aesthetic/blob/master/vape.png)
 
 ## Installation
 
