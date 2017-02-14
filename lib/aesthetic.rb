@@ -8,8 +8,9 @@ class String
 
   def aesthetic!
     self.length.times do |i|
-      if self[i] =~ /[a-z]/i
-        self[i] = (self[i].ord + AESTHETIC_DELTA).chr(Encoding::UTF_8)
+      codepoint = self[i].ord
+      if codepoint >= 33 && codepoint <= 126
+        self[i] = (codepoint + AESTHETIC_DELTA).chr(Encoding::UTF_8)
       end
     end
     self
